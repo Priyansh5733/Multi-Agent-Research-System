@@ -176,25 +176,7 @@ For Windows PowerShell:
 pip install -r requirements.txt
 ```
 
-## Environment Variables
 
-Create a `.env` file in the project root:
-
-```env
-MISTRAL_API_KEY=your_mistral_api_key
-```
-
-Do not upload your `.env` file to GitHub.
-
-Add the following to `.gitignore`:
-
-```gitignore
-.env
-.venv/
-__pycache__/
-*.pyc
-.streamlit/secrets.toml
-```
 
 ## Running the Application
 
@@ -267,10 +249,3 @@ The system produces:
 - Additional specialized research agents
 - Improved Streamlit interface
 
-## Disclaimer
-
-The system uses LLM-generated content and information retrieved from external sources. Generated research should be verified against reliable primary sources before being used for academic, professional, or high-stakes purposes.
-
-## License
-
-This project is licensed under the MIT License.
